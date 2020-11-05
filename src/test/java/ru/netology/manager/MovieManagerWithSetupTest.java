@@ -6,7 +6,7 @@ import ru.netology.manager.MovieManager;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-public class MovieManagerTestWithSetup {
+public class MovieManagerWithSetupTest {
   MovieManager manager = new MovieManager(5);
   PosterMovie movie1 = new PosterMovie(1, "https://image1", "While Were Young", "drama", true);
   PosterMovie movie2 = new PosterMovie(2, "https://image2", "The Tax Collector", "thriller", false);
